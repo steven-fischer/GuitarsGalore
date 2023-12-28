@@ -1,0 +1,162 @@
+/* 
+	 Title:  Guitars Galore - CSS
+	 Author: Steve Fischer
+	 Date:   4/13/2018
+*/
+
+
+/*Header Styles*/
+
+header {
+    text-align: center;
+    min-width: 50px;
+    max-width: 8000px;
+}
+
+/*Body Styles*/
+body {
+    margin: 0px auto;
+    padding: 0px;
+    min-width: 90px;
+    max-width: 10000px;
+    background-color: black;
+    text-align: center;
+}
+ 
+/*Headings Styles*/
+h1{
+    font-family: Chalkduster, Chalkdust;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    padding-top: .5em;
+}
+
+h2{
+    margin: 0px;
+    font-family: Chalkduster, Chalkdust;
+    font-size: 3em;
+    padding-top: .5em;
+    color: white;
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
+	
+	
+}
+
+h3{
+    text-align: left;
+    font-size: 3em;
+    font-family: AR CENA, bold;
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+/* Nav Styles */
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    display: block;
+}
+
+ul li {
+	padding: 20px;
+    text-align: center;
+    display: inline;
+	color: white;
+    
+}
+
+a{
+	text-decoration: none;
+    text-align: center;
+	color: white;
+    font-size: 3.25em;
+    font-family: Chalkduster, Chalkdust;
+}
+
+a:hover,a:active{
+    color:grey;
+}
+
+/*Paragraph Styles*/
+
+p{
+    color: white;
+    text-align: justify;
+    font-family: AR CENA, sans-serif;
+    font-size: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+     
+}
+
+/*Text Margin class*/
+
+p.sub{
+    margin-left: 1.5em;
+    
+}
+
+p.resource{
+    font-size: .75em;
+    text-align: center;
+}
+
+p.linked{
+    font-size: .75em;
+    text-align: center;
+}
+
+/* Aside Styles */
+
+aside{
+    float: right;
+}
+
+/*Caption Style*/
+
+caption{
+    color: white;
+    font-family: AR CENA;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.75em;
+}
+
+/*Image Styles*/
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    padding: 2em;
+}
+
+/*Audio Styles*/
+
+audio{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Footer Styles*/
+
+footer{
+    color: white;
+    text-align: center;
+    font-family: AR CENA, sans-serif;
+    font-size:2em;
+    opacity: .80;
+    text-decoration: overline;
+    padding-top: 1em;
+}
